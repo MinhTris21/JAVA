@@ -2,14 +2,11 @@ public class Person {
     public String name;
     public int age;
     public String gender;
-    Person(String name, int age, String gender){
-        this.name=name;
-        this.age=age;
-        this.gender=gender;
-    }
 
-    public void setAge(int age) {
+    Person(String name, int age, String gender) {
+        this.name = name;
         this.age = age;
+        this.gender = gender;
     }
 
     public String getName() {
@@ -32,12 +29,16 @@ public class Person {
         return age;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
-        return "Name: "+name + "\t\tAge: "+age+"\t\tGender: "+gender;
+        return "Name: " + name + "\t\tAge: " + age + "\t\tGender: " + gender;
     }
-    public void display()
-    {
-        System.out.println(toString());
+
+    public void display() {
+        System.out.println(this);
     }
 }
