@@ -2,9 +2,9 @@ public class Inheritance {
     public static void main(String[] args) {
         //REPRESENT FOR PERSON CLASS
 
-        Person Messi = new Person("Messi", 35, "Male");
-        Person Ronaldo = new Person("7Chuon", 37, "Male");
-        Person Iniesta = new Person("Iniesta", 38, "Male");
+        Person Human1 = new Person("Nguyet", 20, "Female");
+        Person Human2 = new Person("Hung", 20, "Female");
+        Person Human3 = new Person("Duc", 20, "Female");
 
         //REPRESENT FOR FAMILY CLASS
         Family Father = new Family("Thai", 54, "Male", "Sweet taste", "Yellow");
@@ -18,11 +18,17 @@ public class Inheritance {
         Hero Superman = new Hero("Superman", 200, "Male", "Laser eyes", "DC COMIC");
         Hero Ironman = new Hero("Tony Stonk", 46, "Male", "Rich", "Marvel");
 
+        //REPRESENT FOR FOOTBALL CLASS
+        Football Messi = new Football("Lionel Messi",34,"Male","PSG","Left Wing");
+        Football Neymar = new Football("Neymar.Jr",30,"Male","PSG","Right Wing");
+        Football Pedri = new Football("Perdi Gonzalez",19,"Male","FCB","CMD");
+
+
         //USE OVERRIDE METHOD TO DISPLAY ATTRIBUTES OF EACH CLASS
         System.out.println("---------------------------------------PERSON CLASS------------------------------------------");
-        Messi.display();
-        Ronaldo.display();
-        Iniesta.display();
+        Human1.display();
+        Human2.display();
+        Human3.display();
         System.out.println("------------------------------------FAMILY CLASS----------------------------------------------");
         Father.display();
         Mother.display();
@@ -33,5 +39,9 @@ public class Inheritance {
         Ironman.display();
         Batman.display();
         Superman.display();
+        System.out.println("---------------------------------------FOOTBALL CLASS---------------------------------------------");
+        Messi.display();
+        Neymar.display();
+        Pedri.display();
     }
 }
