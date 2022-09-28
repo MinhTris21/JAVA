@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea5217a6-6fa7-42d9-8c58-b97d9f0e2257" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/untitled2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/untitled2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/../25% OOP/src/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/Football.java" beforeDir="false" afterPath="$PROJECT_DIR$/../25% OOP/src/Football.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../25% OOP/src/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../25% OOP/src/Inheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../25% OOP/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../25% OOP/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/untitled2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled2.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FOOkiwbI2oOEaFxtpvrQzQJDzi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "S:/Java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea5217a6-6fa7-42d9-8c58-b97d9f0e2257" name="Changes" comment="" />
+      <created>1664359808523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664359808523</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
