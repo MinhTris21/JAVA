@@ -179,8 +179,15 @@ public class Main {
 
         String name = JOptionPane.showInputDialog("Who the fuk are you: ");
         System.out.println("Hello "+name);
-        String[] responsive = {"Dung roi","Khong","con phai hoi?"};
+        String[] responsive = {"No Doubt","NOPE","STFU"};
         JOptionPane.showOptionDialog(null,"Are you handsome?","best question",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.WARNING_MESSAGE,null,responsive,0);
     }
 }
 */
+
+public class Main {
+    public static void main(String[] args) {
+
+        new MyFrame();
+    }
+}
