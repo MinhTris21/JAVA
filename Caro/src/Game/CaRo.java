@@ -7,7 +7,7 @@ public class CaRo extends JFrame implements ActionListener {
     Color x_cl = Color.red;
     Color y_cl = Color.blue;
     
-    int column = 25, row = 25, count = 0;
+    int column = 10, row = 10, count = 0;
     int xUndo[] = new int[column * row];
     int yUndo[] = new int[column * row];
     boolean tick[][] = new boolean[column + 2][row + 2];
