@@ -3,8 +3,8 @@ public class Inheritance {
         //REPRESENT FOR PERSON CLASS
 
         Person Human1 = new Person("Nguyet", 20, "Female");
-        Person Human2 = new Person("Hung", 20, "Female");
-        Person Human3 = new Person("Duc", 20, "Female");
+        Person Human2 = new Person("Hung", 20, "Male");
+        Person Human3 = new Person("Duc", 20, "Male");
 
         //REPRESENT FOR FAMILY CLASS
         Family Father = new Family("Thai", 54, "Male", "Sweet taste", "Yellow");

@@ -185,9 +185,54 @@ public class Main {
 }
 */
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Welcome to the guessing game");
+        System.out.println("Please enter your name: ");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.next();
+        System.out.println("Hello " + name);
 
-        new MyFrame();
+        System.out.println("Are you ready to begin the game");
+        System.out.println("\t1. Yes, I am ready");
+        System.out.println("\t2 No, let's wait");
+        int Answer = scanner.nextInt();
+        while (Answer != 1) {
+            System.out.println("Are you ready to begin the game");
+            System.out.println("\t1. Yes, I am ready");
+            System.out.println("\t2 No, let's wait");
+            Answer = scanner.nextInt();
+        }
+        Random random = new Random();
+        boolean win = true;
+        int x = random.nextInt(100);
+        System.out.println("Please enter your guess number");
+        int guessnumber = scanner.nextInt();
+        if (guessnumber != x) {
+            for (int i = 4; i > 0; i--) {
+                System.out.println("You have "+ i +" times left to guess");
+                guessnumber = scanner.nextInt();
+                win = false;
+                if (guessnumber == x){
+                    win = true;
+                    System.out.println("Your number is correct, Congratz!!!");
+                    break;
+                }
+            }
+        }else{
+            System.out.println("You won the game with only one time guess");
+        }
+        if (!win)
+        {
+            System.out.println("You loose the game");
+        }
+
     }
+
+
 }
+
+//tinh da hinh, tinh dong goi, tinh ke thua, tinh truu tuong.
