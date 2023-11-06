@@ -187,7 +187,7 @@ public class Main {
 
 import java.util.Random;
 import java.util.Scanner;
-
+/*
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to the guessing game");
@@ -231,8 +231,8 @@ public class Main {
         }
 
     }
-
-
 }
+*/
+
 
 //tinh da hinh, tinh dong goi, tinh ke thua, tinh truu tuong.
