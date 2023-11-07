@@ -1,3 +1,9 @@
+import javax.xml.crypto.Data;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 /*
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -184,10 +190,10 @@ public class Main {
     }
 }
 */
-
+/*
 import java.util.Random;
 import java.util.Scanner;
-/*
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to the guessing game");
@@ -232,7 +238,105 @@ public class Main {
 
     }
 }
-*/
+
 
 
 //tinh da hinh, tinh dong goi, tinh ke thua, tinh truu tuong.
+
+ */
+/*
+public class Main{
+    public static void main(String[] args)
+    {
+        ArrayList<String> names = new ArrayList<>();
+        names.add("John");
+        names.add("Kyler");
+        names.add("MInhTris");
+        names.add("Clay");
+//        System.out.println(names.get(1));
+//        System.out.println(names.size());
+//        names.remove(1);
+//        System.out.println(names.get(1));
+//        names.remove("John");
+        for (int i = 0; i < names.size();i++)
+        {
+            System.out.println(names.get(i));
+        }
+        Map<String, String> contract = new HashMap<>();
+        contract.put("mother","motheristhebest.com");
+        contract.put("Dad","Dadisthebest.com");
+        contract.put("Brother","Brotheristhebest.com");
+        contract.put("Sister","Sisteristhebest.com");
+        System.out.println(contract.get("mother"));
+        System.out.println(contract.size());
+        System.out.println(contract.containsKey("Brother")); //Check the Key "Brother" ==> TRUE
+        System.out.println(contract.containsValue("Brotheristhebest.com")); //check the value "Brotheristhebest.com" ==> TRUE
+        Map<String, Integer> details = new HashMap<>();
+        details.put("Mother",51);
+        details.put("Dad",55);
+        details.put("Brother",27);
+        details.put("Sister",10);
+        System.out.println(details.get("Mother"));
+        System.out.println(details.get("Sister"));
+    }
+}
+*/
+/*
+public class Main {
+    public static void main (String[] args){
+        CarInterface carInterface = new ElectricCar("Tesla");
+        carInterface.start();
+        carInterface.move(20);
+        CarInterface FuelCar = new FuelCar("Lambo");
+        FuelCar.start();
+        FuelCar.move(2221);
+
+
+    }
+}
+*/
+/*
+public class Main {
+    public static void main(String[] args) {
+        /*
+        Thread test = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i< 4; i++)
+                {
+                    System.out.println(i);
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+        });
+        test.start();
+        for (int i = 0; i< 4; i++)
+        {
+            System.out.println(i);
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+        int a = 2;
+        int b = 0;
+        try{
+            System.out.println(a/b);
+        }catch(Exception e){
+            System.out.println("divided by zero");
+        }
+    }
+}
+*/
+public class Main {
+    public static void main(String [] args){
+
+    }
+}

@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Patient patient = new Patient("Bard", 20,
-                new Eyes("Left eye", "fine", "blue", true),
-                new Eyes("Right eye", "Blured", "Brown", false),
-                new Heart("Heart", "normal", 1000),
-                new Stomach("Stomach", "Hurt badly", false),
-                new Skin("Skin", "Normal", "white", 50));
+        Patient patient = new Patient("John",20,
+                new Eyes("middle eyes", "badly hurt","green", false),
+                new Eyes("left eyes", "fine", "red",false),
+                new Heart("Heart1","normal",1000),
+                new Stomach("Stomach","normal", true),
+                new Skin("Skin","normal","white",301));
+
         System.out.println("Name: " + patient.getName());
         System.out.println("Age: " + patient.getAge());
         Scanner scanner = new Scanner(System.in);
@@ -88,7 +89,6 @@ public class Main {
                     ready = true;
                     break;
             }
-
         }
     }
 }
